@@ -25,11 +25,11 @@
 ## 연구 방법
 ### 전이학습의 선행모델 성능 비교 후 CNN 학습을 통해 새로운 모델 개발
 #### 전이학습 선행모델
+fully connected layer는 포함시키지 않고 그 전의 layer를 통해 이미지 특징 추출\
+✅ 전이학습의 선행모델로 VGG16 선정
 1. VGG16
 2. DenseNet121
-3. MobileNet\
-➡️ fully connected layer는 포함시키지 않고 그 전의 layer를 통해 이미지 특징 추출\
-✅ 전이학습의 선행모델로 VGG16 선정
+3. MobileNet
 
 #### CNN 학습
 1. 이미지의 높이와 너비를 신경망에 입력하기 적합한 형식으로 변환 후 관절 좌표 배열 생성
